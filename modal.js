@@ -9,6 +9,9 @@ document.addEventListener('DOMContentLoaded',function (){
         {img:'/imagenes/chiquyGumies.jpeg'},
         {img:'/imagenes/blogr.jpg'},
         {img:'/imagenes/gamestart.jpeg'},
+        {img:'/imagenes/react-1.jpeg'},
+        {img:'/imagenes/react-2.jpeg'},
+        {img:'/imagenes/MusicApp.jpeg'},
     ]
     let contador=0
     const contenedor =document.querySelector('.slideshow')

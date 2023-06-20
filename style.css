@@ -643,6 +643,7 @@ h3.my-profession{
     border-radius: 10px;
     overflow: hidden;
     cursor: pointer;
+    margin-bottom: 7px;
 }
 
 .portfolio .portfolio-item-inner .portfolio-img img{
@@ -732,6 +733,7 @@ h3.my-profession{
 .contact .contact-form .btn{
     height: 50px;
     padding: 0 50px;
+    
 }
 
 .contact .contact-form textarea{
@@ -739,6 +741,70 @@ h3.my-profession{
 }
 /* Contacts (end) */
 
+
+/* 
+iconos de lenguajes  (start)*/
+
+.icon_lenguaje{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bxl-javascript,.bxl-html5,.bxl-css3,.bxl-sass,.bxl-react,.bxl-firebase,.bxl-tailwind-css,.bxl-nodejs,.bxl-mongodb{
+  
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: var(--text-black-900);
+    
+}
+.bx-code-alt{
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: var(--text-black-900);
+}
+
+.bx-code-alt:hover{
+    
+    color: var(--skin-color);
+}
+
+
+
+.bxl-javascript:hover{
+    color: rgb(248, 248, 65);
+}
+
+.bxl-html5:hover{
+    color: #FF5733;
+}
+.bxl-css3:hover{
+    color: rgb(0, 140, 255);
+}
+.bxl-sass:hover{
+    color:rgb(255, 53, 177)
+}
+.bxl-react:hover{
+color: rgb(0, 233, 233);
+}
+.bxl-firebase:hover{
+    color: #FFA611;
+}
+.bxl-tailwind-css:hover{
+    color: rgb(86, 179, 255);
+}
+.bxl-nodejs:hover{
+color: rgb(118, 204, 78);
+}
+
+.bxl-mongodb:hover{
+    color: rgb(0, 105, 0);
+}
+
+
+/* 
+iconos de lenguajes  (end)*/
 
 @media(max-width:1199px){
     .aside{
