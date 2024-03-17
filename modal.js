@@ -1,17 +1,17 @@
 document.addEventListener('DOMContentLoaded',function (){
     let imagenes=[
-        {img:'/imagenes/calculater.jpeg'},
-        {img:'/imagenes/easybank.jpg'},
-        {img:'/imagenes/medic.jpeg'},
-        {img:'/imagenes/musicaly.jpeg'},
-        {img:'/imagenes/tarjet.jpeg'},
-        {img:'/imagenes/school.jpeg'},
-        {img:'/imagenes/chiquyGumies.jpeg'},
-        {img:'/imagenes/blogr.jpg'},
-        {img:'/imagenes/gamestart.jpeg'},
-        {img:'/imagenes/react-1.jpeg'},
-        {img:'/imagenes/react-2.jpeg'},
-        {img:'/imagenes/MusicApp.jpeg'},
+        {img:'/imagenes/19.jpeg'},
+        {img:'/imagenes/20.jpeg'},
+        {img:'/imagenes/21.jpeg'},
+        {img:'/imagenes/22.jpeg'},
+        // {img:'/imagenes/tarjet.jpeg'},
+        // {img:'/imagenes/school.jpeg'},
+        // {img:'/imagenes/chiquyGumies.jpeg'},
+        // {img:'/imagenes/blogr.jpg'},
+        // {img:'/imagenes/gamestart.jpeg'},
+        // {img:'/imagenes/react-1.jpeg'},
+        // {img:'/imagenes/react-2.jpeg'},
+        // {img:'/imagenes/MusicApp.jpeg'},
     ]
     let contador=0
     const contenedor =document.querySelector('.slideshow')

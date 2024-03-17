@@ -6,6 +6,11 @@
     --text-black-900:#302e4d;
     --text-black-700:#504e70;
 }
+/* 
+:not(svg){
+    width: 10px;
+    height: 20px;
+} */
 
 body.dark{
     --bg-black-900:#151515;
@@ -750,7 +755,7 @@ iconos de lenguajes  (start)*/
     justify-content: space-between;
 }
 
-.bxl-javascript,.bxl-html5,.bxl-css3,.bxl-sass,.bxl-react,.bxl-firebase,.bxl-tailwind-css,.bxl-nodejs,.bxl-mongodb{
+.bxl-javascript,.bxl-html5,.bxl-css3,.bxl-sass,.bxl-react,.bxl-firebase,.bxl-tailwind-css,.bxl-nodejs,.bxl-mongodb,.bxl-bootstrap,.bxl-angular,.bxl-typescript{
   
     font-size: 1.6rem;
     cursor: pointer;
@@ -801,7 +806,16 @@ color: rgb(118, 204, 78);
 .bxl-mongodb:hover{
     color: rgb(0, 105, 0);
 }
+.bxl-bootstrap:hover{
+    color: #7432F9;
+}
 
+.bxl-angular:hover{
+    color: #DD0031;
+}
+.bxl-typescript:hover{
+    color: #1E65BC;
+}
 
 /* 
 iconos de lenguajes  (end)*/
