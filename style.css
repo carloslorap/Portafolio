@@ -655,6 +655,12 @@ h3.my-profession{
     width: 310px;
     height: 200px;
     display: block;
+    transition: 0.3s;
+}
+
+.img_portafolio:hover{
+    transform: scale(1.1);
+    
 }
 /* portfolio (end) */
 
