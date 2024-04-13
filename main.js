@@ -70,10 +70,9 @@ const nav =document.querySelector(".nav"),
 
             const x={foo:1};
             const y={foo:2};
-            console.log(x==y);
-            console.log(x===y)
+
 
             
-            arr[11]=10
+         
 
-            console.log(arr.length)
+       
