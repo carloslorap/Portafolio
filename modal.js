@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded',function (){
         {img:'/imagenes/20.jpeg'},
         {img:'/imagenes/21.jpeg'},
         {img:'/imagenes/22.jpeg'},
+        {img:'/imagenes/23.jpeg'},
         // {img:'/imagenes/tarjet.jpeg'},
         // {img:'/imagenes/school.jpeg'},
         // {img:'/imagenes/chiquyGumies.jpeg'},
@@ -40,13 +41,14 @@ document.addEventListener('DOMContentLoaded',function (){
             pass_account:"carlos123"
         }},
         {text:{
-            text_info:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            text_info:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
             title_App:"Digitic App",
             title_user:"Usuario:",
             title_pass:"Contraseña:",
             user_account:"carlos@gmail.com",
             pass_account:"carlos123"
         }},
+        
     ]
 
     let contador=0
