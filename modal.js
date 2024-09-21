@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded',function (){
         {img:'/imagenes/21.jpeg'},
         {img:'/imagenes/22.jpeg'},
         {img:'/imagenes/23.jpeg'},
+        {img:'/imagenes/24.jpeg'},
         // {img:'/imagenes/tarjet.jpeg'},
         // {img:'/imagenes/school.jpeg'},
         // {img:'/imagenes/chiquyGumies.jpeg'},
@@ -48,6 +49,7 @@ document.addEventListener('DOMContentLoaded',function (){
             user_account:"carlos@gmail.com",
             pass_account:"carlos123"
         }},
+
         
     ]
 
