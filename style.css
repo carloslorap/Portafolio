@@ -475,11 +475,14 @@ h3.my-profession {
     flex: 0 0 40%;
     max-width: 40%;
     margin-top: 40px;
+
 }
 
 .about .about-content .skills .skill-item {
+    
     flex: 0 0 100%;
     max-width: 100%;
+
 
 }
 
@@ -611,6 +614,75 @@ h3.my-profession {
     text-align: justify;
     color: var(--text-black-700);
 }
+
+.frameworks{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.frameworks img{
+    width: 10%;
+    height: 10%;
+}
+
+.frameworks .img-node-skill{
+    width: 13%;
+    height: 13%;
+    margin-inline: 7px;
+}
+
+.databases{
+    display: flex;
+    align-items: center;
+}
+
+.databases img{
+    width: 15%;
+    height: 15%;
+}
+
+.databases .img-postgres-skill{
+    width: 18%;
+    height: 18%;
+}
+.databases .img-mongo-skill{
+    width: 20%;
+    height: 20%;
+}
+
+.databases .img-firebase-skill{
+    margin-left: 6px;
+    width: 9%;
+    height: 9%;
+}
+
+.frameworksCSS{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+.frameworksCSS img{
+    width: 9%;
+    height: 9%;
+}
+.tools{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+.tools img{
+    width: 9%;
+    height: 9%;
+}
+
+.tools .img-git-skill{
+    width: 14%;
+    height: 14%;
+}
+
 
 /* about (end) */
 

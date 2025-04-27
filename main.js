@@ -72,6 +72,28 @@ const nav =document.querySelector(".nav"),
             const y={foo:2};
 
 
+
+    //proceso para sacar automaticamente la edad        
+    const yearActual = new Date().getFullYear()
+    const mesActual = new Date().getMonth()
+    const diaActual = new Date().getDate()
+
+    const restafinal = yearActual - 2003
+
+    const funcionEdad=()=>{
+        if (mesActual < 1 || (mesActual === 1 && diaActual < 11)) {
+           return restafinal - 1
+         }
+
+         return restafinal
+        
+    }
+    document.getElementById('age').textContent = funcionEdad();
+
+
+   
+
+
             
          
 
