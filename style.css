@@ -796,6 +796,11 @@ h3.my-profession {
     margin-bottom: 7px;
 }
 
+.portfolio .portafolio-item-title h3{
+    color: var(--text-black-900);
+    margin: 4px;
+}
+
 .portfolio .portfolio-item-inner .portfolio-img img {
     width: 310px;
     height: 200px;
